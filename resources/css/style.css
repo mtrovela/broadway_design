@@ -8,9 +8,59 @@ body {
 }
 
 .header {
-  background-image: url("resources/images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
 }
 
 div {
   display: block;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+nav, a.ko-text {
+  font-size: 18px;
+  display: block;
+  padding: 5px 0 5px 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h3.ko-text {
+  display: block;
+  padding: 5px 0 5px 0;
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer {
+  background-color: dimgray;
+  text-align: left;
+}
+
+p.caption-text {
+  font-size: 11px;
+  color: white;
+}
+
+a.ko-text.caption-text {
+  color: white;
+  font-size: 11px;
+  display: inline-block;
+  padding-left: 12px;
 }
